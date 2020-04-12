@@ -11,3 +11,6 @@
 // https://github.com/demmerichs/CodeJamTemplate
 //#region template code
 #include <bits/stdc++.h>
+#include <fstream>
+#include <iostream>
+#include <sys/stat.h>
