@@ -26,7 +26,7 @@ mkdir $DIR/template_problem_folder
 cp $DIR/Main.cpp $DIR/template_problem_folder/Main.cpp
 cp $DIR/Solution.py.m4 $DIR/template_problem_folder/Solution.py.m4
 cp $DIR/CMakeLists.txt $DIR/template_problem_folder/CMakeLists.txt
-touch $DIR/template_problem_folder/sample.txt
+echo -e "1\n" > $DIR/template_problem_folder/sample.txt
 touch $DIR/template_problem_folder/result.txt
 cp $DIR/interactive_runner.py $DIR/template_problem_folder/interactive_runner.py
 cp $DIR/execute.bash $DIR/template_problem_folder/execute.bash

@@ -10,3 +10,6 @@
 // https://github.com/DavidS3141/CodeJamTemplate
 //#region template code
 #include <bits/stdc++.h>
+#include <fstream>
+#include <iostream>
+#include <sys/stat.h>
