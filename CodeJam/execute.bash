@@ -92,7 +92,7 @@ then
     echo "#####################################################################"
     echo "Using C++ solution..."
     echo "#####################################################################"
-    g++-7 Main.cpp -std=c++14 -pthread -O3 -o Solution -DLOCAL
+    g++-7 Main.cpp -std=c++17 -pthread -O3 -o Solution -DLOCAL
     if [ -f local_testing_tool.py ]
     then
         color ./interactive_runner.py python local_testing_tool.py 0 -- ./Solution
