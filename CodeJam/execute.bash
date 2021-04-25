@@ -106,10 +106,10 @@ then
     if [ $TEST ]
     then
         exec="Solution_upload"
-        g++-7 Main.cpp -std=c++14 -pthread -O3 -o Solution_upload
+        g++-7 Main.cpp -std=c++17 -pthread -O3 -o Solution_upload
     else
         exec="Solution"
-        g++-7 Main.cpp -std=c++14 -pthread -O3 -o Solution -DLOCAL
+        g++-7 Main.cpp -std=c++17 -pthread -O3 -o Solution -DLOCAL
     fi
 
     if [ -f local_testing_tool.py ]
